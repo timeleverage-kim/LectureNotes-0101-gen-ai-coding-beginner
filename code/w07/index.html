@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>나는 어떤 동물일까?</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="card">
+      <h1>🐾 나는 어떤 동물일까?</h1>
+
+      <section id="quiz-area">
+        <p class="progress" id="progress"></p>
+        <p class="question" id="question"></p>
+        <button class="choice" id="choice-a"></button>
+        <button class="choice" id="choice-b"></button>
+      </section>
+
+      <section id="result-area" class="hidden">
+        <p class="result-emoji" id="result-emoji"></p>
+        <h2 id="result-title"></h2>
+        <p id="result-desc"></p>
+        <button id="restart-button">🔄 다시 하기</button>
+      </section>
+    </main>
+
+    <script src="quiz.js"></script>
+  </body>
+</html>
